@@ -6,7 +6,8 @@ window = tk.Tk()
 window.geometry("620x780")
 window.title(" Age Calculator App ")
 
-# Now the labels
+# Now the labels and positions
+# into de Window
 
 name = tk.Label(text = "Name")
 name.grid(column = 0, row = 1)
